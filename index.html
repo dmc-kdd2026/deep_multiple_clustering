@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DMC@KDD2026: Deep Multiple Clustering Tutorial</title>
 <meta name="description" content="KDD 2026 Tutorial on Deep Multiple Clustering: From Foundations to Context-Aware Approaches. Jeju, Korea.">
- 
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
- 
+
 <style>
   :root {
     --bg: #FFFFFF;
@@ -25,10 +25,10 @@
     --font-sans: "Source Sans 3", -apple-system, BlinkMacSystemFont, sans-serif;
     --font-serif: "Source Serif 4", Georgia, serif;
   }
- 
+
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; scroll-padding-top: 70px; }
- 
+
   body {
     font-family: var(--font-sans);
     color: var(--text);
@@ -37,12 +37,12 @@
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
   }
- 
+
   a { color: var(--link); text-decoration: none; }
   a:hover { text-decoration: underline; }
- 
+
   .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
- 
+
   /* ───── NAV ───── */
   nav {
     position: sticky; top: 0; z-index: 100;
@@ -75,7 +75,7 @@
   @media (max-width: 520px) {
     nav ul a:nth-child(n+4) { display: none; }
   }
- 
+
   /* ───── HERO ───── */
   .hero {
     background:
@@ -217,7 +217,7 @@
     border-color: rgba(255,255,255,0.5);
     transform: translateY(-2px);
   }
- 
+
   /* ───── SECTIONS ───── */
   section {
     padding: 70px 0;
@@ -235,7 +235,7 @@
     border-bottom: 2px solid var(--accent);
     display: inline-block;
   }
- 
+
   /* ───── ABSTRACT ───── */
   #introduction p {
     font-size: 17px;
@@ -245,7 +245,7 @@
   }
   #introduction p:last-child { margin-bottom: 0; }
   #introduction strong { color: var(--text); font-weight: 600; }
- 
+
   /* ───── SCHEDULE TABLE ───── */
   .schedule-wrap { overflow-x: auto; margin-top: 4px; }
   table.schedule {
@@ -289,7 +289,7 @@
     color: var(--muted);
     font-style: italic;
   }
- 
+
   /* ───── ORGANIZERS ───── */
   .organizers {
     display: grid;
@@ -342,7 +342,7 @@
     font-size: 14px; color: var(--text-soft);
     line-height: 1.45;
   }
- 
+
   /* ───── SLIDES ───── */
   .slides-placeholder {
     background: #fff;
@@ -406,7 +406,7 @@
     .pdf-frame { height: 520px; }
     .slides-placeholder { padding: 50px 20px; }
   }
- 
+
   /* ───── REFERENCES ───── */
   #references ul {
     list-style: none;
@@ -433,7 +433,7 @@
   #references .authors { color: var(--text); }
   #references .title { font-style: italic; }
   #references .venue { color: var(--muted); font-size: 14px; }
- 
+
   /* ───── FOOTER ───── */
   footer {
     background: var(--bg-band);
@@ -472,7 +472,7 @@
 </style>
 </head>
 <body>
- 
+
 <!-- ───── NAV ───── -->
 <nav>
   <div class="container">
@@ -486,7 +486,7 @@
     </ul>
   </div>
 </nav>
- 
+
 <!-- ───── HERO ───── -->
 <header class="hero">
   <div class="container">
@@ -528,7 +528,7 @@
     </div>
   </div>
 </header>
- 
+
 <!-- ───── INTRO / ABSTRACT ───── -->
 <section id="introduction">
   <div class="container">
@@ -557,7 +557,7 @@
     </p>
   </div>
 </section>
- 
+
 <!-- ───── SCHEDULE ───── -->
 <section id="program" class="alt">
   <div class="container">
@@ -614,103 +614,79 @@
     </div>
   </div>
 </section>
- 
+
 <!-- ───── ORGANIZERS ───── -->
 <section id="organization">
   <div class="container">
     <h2>Organizers</h2>
     <div class="organizers">
- 
+
       <div class="organizer">
         <div class="photo">JP</div>
         <h3><a href="#">Jian Pei</a></h3>
         <div class="affil">Arthur S. Pearse Distinguished Professor<br>Duke University</div>
       </div>
- 
+
       <div class="organizer">
         <div class="photo">JH</div>
         <h3><a href="#">Juhua Hu</a></h3>
         <div class="affil">Associate Professor<br>University of Washington</div>
       </div>
- 
+
       <div class="organizer">
         <div class="photo">QQ</div>
         <h3><a href="#">Qi Qian</a></h3>
         <div class="affil">Research Scientist, Reality Labs<br>Meta</div>
       </div>
- 
+
       <div class="organizer">
         <div class="photo">HG</div>
         <h3><a href="#">Huiji Gao</a></h3>
         <div class="affil">Senior Engineering Manager<br>Airbnb</div>
       </div>
- 
+
       <div class="organizer">
         <div class="photo"><img src="image/jiawei-yao.jpg" alt="Jiawei Yao"></div>
         <h3><a href="#">Jiawei Yao</a></h3>
         <div class="affil">Machine Learning Engineer<br>Airbnb</div>
       </div>
- 
+
       <div class="organizer">
         <div class="photo">BZ</div>
         <h3><a href="#">Bangyu Zou</a></h3>
         <div class="affil">M.S. Student<br>University of California, Irvine</div>
       </div>
- 
+
     </div>
   </div>
 </section>
- 
+
 <!-- ───── SLIDES ───── -->
 <section id="slides" class="alt">
   <div class="container">
     <h2>Tutorial Slides</h2>
     <p style="color:var(--text-soft); margin-bottom: 28px;">
-      The complete slide deck will be posted here before the tutorial begins.
-      Check back closer to August 2026.
+      Browse the slide deck below, or download the full PDF for offline viewing.
     </p>
- 
-    <!--
-      ──────────────────────────────────────────────────────────────────
-      ★ WHEN YOUR SLIDES ARE READY:
-        1. Upload your PDF to the repo as 'slides.pdf' at the root level
-           (or change the path in the iframe + buttons below to match)
-        2. DELETE this <div class="slides-placeholder"> block
-        3. UNCOMMENT the <div class="slides-viewer"> block below it
-      ──────────────────────────────────────────────────────────────────
-    -->
- 
-    <div class="slides-placeholder">
-      <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-        <polyline points="14 2 14 8 20 8"/>
-        <line x1="9" y1="13" x2="15" y2="13"/>
-        <line x1="9" y1="17" x2="15" y2="17"/>
-      </svg>
-      <h3>Slides coming soon</h3>
-      <p>An embedded viewer with PDF download will appear here once available.</p>
-    </div>
- 
-    <!--
+
     <div class="slides-viewer">
       <div class="slides-toolbar">
-        <a href="slides.pdf" download class="btn btn-primary btn-sm">
+        <a href="DMC_ICDM.pdf" download class="btn btn-primary btn-sm">
           <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
           Download PDF
         </a>
-        <a href="slides.pdf" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+        <a href="DMC_ICDM.pdf" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
           Open in new tab ↗
         </a>
       </div>
       <div class="pdf-frame">
-        <iframe src="slides.pdf" title="DMC KDD 2026 Tutorial Slides"></iframe>
+        <iframe src="DMC_ICDM.pdf" title="DMC KDD 2026 Tutorial Slides"></iframe>
       </div>
-      <p class="slides-meta">PDF · Last updated August 2026</p>
+      <p class="slides-meta">PDF · DMC_ICDM.pdf</p>
     </div>
-    -->
   </div>
 </section>
- 
+
 <!-- ───── REFERENCES ───── -->
 <section id="references">
   <div class="container">
@@ -760,9 +736,19 @@
         <span class="venue">ICLR, 2024.</span>
       </li>
       <li>
+        <span class="authors">M. Liu, Z. Zhong, J. Li, et al.</span>
+        <span class="title">Organizing Unstructured Image Collections Using Natural Language.</span>
+        <span class="venue">arXiv:2410.05217, 2024.</span>
+      </li>
+      <li>
         <span class="authors">B. Zhao, O. Mac Aodha.</span>
         <span class="title">Interpretable Text-Guided Image Clustering via Iterative Search.</span>
         <span class="venue">BMVC, 2025.</span>
+      </li>
+      <li>
+        <span class="authors">Z. Chen, Y. Duan, R. Zhu, et al.</span>
+        <span class="title">Agent-Centric Personalized Multiple Clustering with Multi-Modal LLMs.</span>
+        <span class="venue">arXiv:2503.22241, 2025.</span>
       </li>
       <li>
         <span class="authors">L. Miklautz, D. Mautz, M. C. Altinigneli, C. Böhm, C. Plant.</span>
@@ -772,7 +758,7 @@
     </ul>
   </div>
 </section>
- 
+
 <!-- ───── FOOTER ───── -->
 <footer>
   <div class="container">
@@ -798,7 +784,6 @@
     </div>
   </div>
 </footer>
- 
+
 </body>
 </html>
- 
